@@ -1,23 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500&display=swap');
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Rajdhani', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Rajdhani', sans-serif;
 }
 
-  aside{
-    width: 350px;
-    position: fixed;
-    height: 100vh;
-    width: 20vw;
-    display: flex;
-    background-color:#1d495b;
-    flex-direction: column;
+aside {
+  width: 350px;
+  position: fixed;
+  height: 100vh;
+  display: flex;
+  background-color: #1d495b;
+  flex-direction: column;
+}
 
-    
-  }
 .profile {
   display: flex;
   flex-direction: column;
@@ -28,36 +26,25 @@
 }
 
 .profile img {
-    width: 300px;
-    height: 300px;  
-    border-radius: 50%;
-    margin: 35px;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin: 35px;
 }
 
 .material-symbols-outlined:hover {
-    color: #1d495b;
-    cursor: pointer;
+  color: #1d495b;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 1024px) {
-
-  aside {
-    position: static !important;
-    width: 250vw;
-    height: 150vh;
-    
-   
-}
-.profile img {
-  width: 300px;
-  height: 300px;  
-  border-radius: 50%;
-  margin: auto;
-  margin-top: 55px;
- 
-
+  .profile img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 55px;
 }
 
-
-}
    
