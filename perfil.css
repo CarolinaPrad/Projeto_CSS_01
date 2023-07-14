@@ -38,7 +38,7 @@
 @media screen and (max-width: 1024px) {
 aside {
     position: static !important;
-    width: 150vw;
+    width: 4000px;
     height: 150vh;
    
 }
@@ -47,6 +47,7 @@ aside {
   height: 300px;  
   border-radius: 50%;
   margin: auto;
+
   margin-top: 55px;
  
 

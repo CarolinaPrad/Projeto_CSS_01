@@ -68,5 +68,12 @@
         justify-content: flex-start;
         gap: 10px;
     }
+    .article-card:hover {
+      background-color: #27586b;
+      transform: scale(1.05);
+      transition: background-color 0.3s, transform 0.3s;
+  }
+
+
     
     }
