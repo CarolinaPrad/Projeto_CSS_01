@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+  }
+
+  aside{
+    width: 350px;
+    position: fixed;
+    height: 100vh;
+    display: flex;
+    background-color:#1d495b;
+    flex-direction: column;
+
+    
+  }
+.profile {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  font-size: 1rem;
+  gap: 9px;
+}
+
+.profile img {
+    width: 300px;
+    height: 300px;  
+    border-radius: 50%;
+    margin: 35px;
+}
+
+.material-symbols-outlined:hover {
+    color: #1d495b;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+aside {
+    position: static !important;
+    width: 150vw;
+    height: 150vh;
+   
+}
+.profile img {
+  width: 300px;
+  height: 300px;  
+  border-radius: 50%;
+  margin: auto;
+  margin-top: 55px;
+ 
+
+}
+
+
+}
+   

@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.container-barra {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.habilidades {
+    color: white;
+    margin: 20px;
+    padding: 10px;
+}
+
+.barra {
+    width: 250px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #ccc;
+}
+
+.barra div {
+    height: 100%;
+    border-radius: 10px;
+    background-color: #27586b;
+    width: 85%;
+}
+
+div .barra-forca {
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.barra2 {
+    width: 250px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #ccc;
+    display: flex;
+}
+
+.barra2 div {
+    height: 100%;
+    border-radius: 10px;
+    background-color: #27586b;
+    width: 90%;
+}
+
+div .barra-forca2 {
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.barra3 {
+    width: 250px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #ccc;
+    display: flex;
+}
+
+.barra3 div {
+    height: 100%;
+    border-radius: 10px;
+    background-color: #27586b;
+    width: 80%;
+}
+
+div .barra-forca3 {
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.barra4 {
+    width: 250px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #ccc;
+    display: flex;
+}
+
+.barra4 div {
+    height: 100%;
+    border-radius: 10px;
+    background-color: #27586b;
+    width: 99%;
+}
+
+div .barra-forca4 {
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
