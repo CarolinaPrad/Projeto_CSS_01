@@ -8,7 +8,7 @@
 }
 
 aside {
-  width: 20vw;
+  width: 18vw;
   position: fixed;
   height: 100vh;
   display: flex;
@@ -47,16 +47,12 @@ aside {
       position: static !important;
       width: 100%;
       height: 100%;
-      
       gap: 2px;
   }
   .profile{
     text-align: center;
     justify-content: flex-start;
-    
-
-      
-  }
+    }
   .profile img{
       width: 250px;
       height: 250px;
